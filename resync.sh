@@ -1,7 +1,6 @@
 CONFIG_FILE='quantisnet.conf'
-USER="$(whoami)"
 SRCDIR="$(pwd)"
-CONFIGFOLDER='/${USER}/.quantisnetcore'
+CONFIGFOLDER=$SRCDIR/.quantisnetcore
 COIN_DAEMON='quantisnetd'
 COIN_CLI='quantisnet-cli'
 
